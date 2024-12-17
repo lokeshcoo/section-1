@@ -1,0 +1,21 @@
+.child{
+    background-color: seagreen;
+    padding:40px;
+    /* margin-right: 50px; */
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.parent{
+    background-color: rgb(72, 0, 255);
+    display: flex;
+    /* border-radius: 15px; */
+    margin-top: 150px;
+    padding: 30PX;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}

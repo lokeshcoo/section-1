@@ -1,6 +1,6 @@
 h1 {
     color:rgb(35, 21, 225);
-    font-size: 60px;
+    font-size: 90px;
     text-decoration: dashed;
     font-style:italic;
     font-weight:bold;
@@ -12,4 +12,21 @@ h1 {
 }
 #one{
     color:black;
+} 
+#yolo{
+    width: 250px;
+    height: 150px;
+    color:red;
+    font-size: 60px;
+    margin-bottom: 100px;
+    background-color: yellow;
+    margin-top: 140px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin: 100px 200px;
+    border: 20px double red;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
 }
