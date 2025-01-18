@@ -61,3 +61,22 @@ do {
         console.log("oddd", a);
     a++;
 } while (a < 20)
+
+//WAP TO print all the numbers divisible 7 and 11  in the range of 100 to 300
+for(i=100;i<300;i++)
+    {
+        if(i%7==0&& i%11==0)
+        {
+            console.log(i);
+        }
+    }  
+//wap to print prime number from 1 to 50
+//wap to print all perfect square from 1 to 100
+for (i=1;i<100;i++)
+{
+    let root= i**0.5;
+    if(Number.isInteger(root))
+    {
+        console.log(i);
+    }
+}
