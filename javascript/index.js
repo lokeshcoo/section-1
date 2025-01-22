@@ -1,4 +1,4 @@
-console.log('Hello World');
+console.log('Hello Java Script');
 
 a=10;
 
@@ -26,6 +26,11 @@ console.log(10/3);
 console.log(1+1);
 console.log("1"+1);
 console.log('My Name is' + msg + ' khan');
+
+myname = "lokesh"
+console.log(myname);
+console.log(typeof myname);
+console.log(3**5);
 
 
 

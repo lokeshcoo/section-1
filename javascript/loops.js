@@ -80,3 +80,15 @@ for (i=1;i<100;i++)
         console.log(i);
     }
 }
+for(let i=0;i<10;i++)
+     {
+         console.log(i);
+     }
+
+let x= 10;
+while(x<20)
+    {
+        console.log(x);
+        x++;
+
+    }     
