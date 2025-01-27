@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamHub - Watch Anywhere</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 shadow-lg">
+        <div class="container mx-auto flex items-center justify-between py-4 px-6">
+            <h1 class="text-2xl font-bold text-yellow-400">StreamHub</h1>
+            <nav class="space-x-4">
+                <a href="#" class="text-white hover:text-yellow-400">Home</a>
+                <a href="#features" class="text-white hover:text-yellow-400">Features</a>
+                <a href="#pricing" class="text-white hover:text-yellow-400">Pricing</a>
+                <a href="#contact" class="text-white hover:text-yellow-400">Contact</a>
+            </nav>
+            <button class="bg-yellow-400 text-gray-800 px-4 py-2 rounded-lg hover:bg-yellow-300">Sign Up</button>
+        </div>
+    </header>
+
+    <section class="bg-cover bg-center h-screen" style="background-image: url('https://source.unsplash.com/1600x900/?movies,cinema');">
+        <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center">
+            <img src="data:image/jpeg;base64,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" alt="Popcorn" class="mb-6 rounded-full shadow-lg">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Stream Your Favorite Movies & Shows</h2>
+            
+            <p class="text-lg md:text-xl text-gray-300 mb-6">Experience unlimited entertainment, anytime, anywhere.</p>
+            <button class="bg-yellow-400 text-gray-800 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-300">Start Watching</button>
+        </div>
+    </section>
+
+    <section id="features" class="py-16 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Features</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold mb-4">HD Streaming</h4>
+                    <p class="text-gray-300">Enjoy crystal clear visuals and sound with our HD streaming service.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Multi-Device Access</h4>
+                    <p class="text-gray-300">Stream on your TV, laptop, phone, or tablet seamlessly.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold mb-4">No Ads</h4>
+                    <p class="text-gray-300">Enjoy uninterrupted entertainment with our ad-free experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-16 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Pricing</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Basic Plan</h4>
+                    <p class="text-3xl font-bold text-yellow-400 mb-4">$9.99</p>
+                    <ul class="text-gray-300 mb-4">
+                        <li>HD Streaming</li>
+                        <li>1 Device Access</li>
+                    </ul>
+                    <button class="bg-yellow-400 text-gray-800 px-4 py-2 rounded-lg hover:bg-yellow-300">Choose Plan</button>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Standard Plan</h4>
+                    <p class="text-3xl font-bold text-yellow-400 mb-4">$14.99</p>
+                    <ul class="text-gray-300 mb-4">
+                        <li>Full HD Streaming</li>
+                        <li>2 Devices Access</li>
+                    </ul>
+                    <button class="bg-yellow-400 text-gray-800 px-4 py-2 rounded-lg hover:bg-yellow-300">Choose Plan</button>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Premium Plan</h4>
+                    <p class="text-3xl font-bold text-yellow-400 mb-4">$19.99</p>
+                    <ul class="text-gray-300 mb-4">
+                        <li>Ultra HD Streaming</li>
+                        <li>4 Devices Access</li>
+                    </ul>
+                    <button class="bg-yellow-400 text-gray-800 px-4 py-2 rounded-lg hover:bg-yellow-300">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-800 py-8">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-400">&copy; 2025 StreamHub. All rights reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-yellow-400">Facebook</a>
+                <a href="#" class="text-yellow-400">Twitter</a>
+                <a href="#" class="text-yellow-400">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

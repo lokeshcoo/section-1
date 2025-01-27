@@ -92,3 +92,23 @@ while(x<20)
         x++;
 
     }     
+
+console.log('do while loop');
+let y=20;
+do{
+    console.log(y);
+    y++;
+}while(y<20)
+
+// wap to reverse a number 
+console.log('reverse a number')
+let num = 37354;
+let reverse = 0;
+
+while(num > 0)
+{
+    let d=num%10;
+    reverse = reverse*10 + d;
+    num = parseInt(num/10);
+}
+console.log(reverse);
